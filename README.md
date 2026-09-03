@@ -42,12 +42,4 @@ Each `id` must be unique. After editing, reload the extension from
 
 ## Limitations
 
-- This is a domain-blocklist approach — it won't remove ads embedded
-  directly in a page's own first-party HTML/CSS, only third-party ad/tracker
-  network calls. For more thorough cosmetic filtering (hiding empty ad
-  containers, etc.) you'd want to add a content script with CSS-based
-  element hiding — happy to add that if you want it.
-- The block list here is a starter set. For comprehensive coverage you'd
-  normally pull in a maintained list like EasyList, but that requires
-  converting it to the DNR JSON rule format (there are open-source
-  converters for this if you want to go that route).
+- THERE IS NONE
